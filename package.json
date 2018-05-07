@@ -1,0 +1,36 @@
+{
+  "name": "corrupto",
+  "version": "1.0.0",
+  "description": "Website of corrupto project",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-globbing": "0.0.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrooti/corrupto.git"
+  },
+  "keywords": [
+    "corrupto",
+    "web",
+    "germanydu",
+    "mrooti"
+  ],
+  "author": "ISC Rogelio Fuentes Alvarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrooti/corrupto/issues"
+  },
+  "homepage": "https://github.com/mrooti/corrupto#readme"
+}
