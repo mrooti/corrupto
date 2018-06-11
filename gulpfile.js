@@ -5,7 +5,7 @@ var useref = require('gulp-useref');
 var uglify = require('gulp-uglify');
 var gulpIf = require('gulp-if');
 
-gulp.task('watch',['browserSync','sass'], function() {
+gulp.task('watch',['browserSync','sass','useref'], function() {
   //watch function
   gulp.watch('app/scss/**/*.scss',['sass']);
   gulp.watch('app/*.html').on('change', browserSync.reload);

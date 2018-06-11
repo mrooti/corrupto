@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'brush';
+  src: url("../fonts/DKCinnabar.ttf") format("truetype"); }
+
+body {
+  background: black;
+  background: -moz-linear-gradient(top, black 0%, #7f003d 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(100%, #7f003d));
+  background: -webkit-linear-gradient(top, black 0%, #7f003d 100%);
+  background: -o-linear-gradient(top, black 0%, #7f003d 100%);
+  background: -ms-linear-gradient(top, black 0%, #7f003d 100%);
+  background: linear-gradient(to bottom, black 0%, #7f003d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7f003d', GradientType=0 ); }
+
+.footer-text {
+  margin-top: 10px; }
+
+video {
+  margin-top: 5%;
+  width: 70%;
+  height: auto; }
+
+.corrupto-3 {
+  font-family: 'brush';
+  /**font-size: 3vw;**/ }
+
+.corrupto-2 {
+  font-family: 'brush';
+  /**font-size: 1vw;**/ }
+
+.mt-15 {
+  margin-top: 17vw; }

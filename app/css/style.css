@@ -1,5 +1,33 @@
-.testing {
-  width: 71.42857%; }
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@font-face {
+  font-family: 'sf';
+  src: url("../fonts/SanFranciscoDisplay-Regular.otf") format("opentype"); }
 
 body {
-  background: blue; }
+  background: black;
+  background: -moz-linear-gradient(top, black 0%, #7f003d 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(100%, #7f003d));
+  background: -webkit-linear-gradient(top, black 0%, #7f003d 100%);
+  background: -o-linear-gradient(top, black 0%, #7f003d 100%);
+  background: -ms-linear-gradient(top, black 0%, #7f003d 100%);
+  background: linear-gradient(to bottom, black 0%, #7f003d 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7f003d', GradientType=0 );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh; }
+
+.footer-text {
+  margin-top: 20px; }
+
+video {
+  margin-top: 5%;
+  width: 70%;
+  height: auto; }
+
+.corrupto {
+  font-family: "sf", sans-serif !important;
+  /**font-size: 3vw;**/ }
+
+.mt-15 {
+  margin-top: 17vw; }

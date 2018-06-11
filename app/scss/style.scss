@@ -1,6 +1,34 @@
-.testing{
-	width: percentage(5/7);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face{
+	font-family: 'sf';
+	src: url('../fonts/SanFranciscoDisplay-Regular.otf') format('opentype');
 }
 body{
-	background:blue;
+	background: rgba(0,0,0,1);
+	background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(127,0,61,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(100%, rgba(127,0,61,1)));
+	background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(127,0,61,1) 100%);
+	background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(127,0,61,1) 100%);
+	background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(127,0,61,1) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(127,0,61,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#7f003d', GradientType=0 );
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	height: 100vh;
+}
+.footer-text{
+	margin-top:20px
+}
+video{
+	margin-top: 5%;
+	width: 70%;
+	height: auto;
+}
+.corrupto{
+	font-family: 'sf', sans-serif!important;
+	/**font-size: 3vw;**/
+}
+.mt-15{
+	margin-top: 17vw;
 }
